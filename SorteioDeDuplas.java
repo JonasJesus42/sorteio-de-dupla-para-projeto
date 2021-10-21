@@ -38,8 +38,8 @@ public class SorteioDeDuplas {
 		 System.out.println("");
 		 
 		 //Separa as duplas em projetos nomeando uma pessoa a lider.
+		 int contador = 0;
 		for(int i = 0; i <= 4; i+=2) {
-			int contador = 0;
 			int primeiro = i;
 			int segundo = i+1;
 			
@@ -48,7 +48,7 @@ public class SorteioDeDuplas {
 			System.out.println("");
 			System.out.println("##################################################################################");
 			System.out.println("");
-			contador+=contador;
+			contador= contador +1;
 		}
 		
 		 System.out.println("");
